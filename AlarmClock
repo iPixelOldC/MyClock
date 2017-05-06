@@ -1,0 +1,35 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          osprey
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Required-Start: $local_fs
+# Required-Stop:
+# chkconfig: 12345 99 05
+# Short-Description: Start or stop the Osprey App.
+### END INIT INFO
+
+start(){
+    echo -n "start alarm clock"
+    cd /home/pi/time
+    su pi -c "./configConctrl &"
+	su pi -c "./shutfownC &"
+	su pi -c "./timeShow &"
+	su pi -c "./alarm"
+}
+
+stop(){
+    echo -n "stop alarm clock"
+}
+
+case $1 in
+start)
+    start
+    ;;
+stop)
+    stop
+    ;;
+*)
+    echo "Usage: $0 (start|stop)"
+    ;;
+esac
