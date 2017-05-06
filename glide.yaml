@@ -1,0 +1,10 @@
+package: github.com/SmallFatCYW/MyClock
+import:
+- package: github.com/go-martini/martini
+  version: ^1.0.0
+- package: github.com/hanbang-wang/SAKS-SDK-GO
+- package: github.com/robfig/cron
+  version: ^1.0.0
+- package: github.com/imroc/req
+- package: github.com/stianeikeland/go-rpio
+  version: ^3.0.0

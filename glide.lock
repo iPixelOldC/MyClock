@@ -1,0 +1,28 @@
+hash: d2eddf848ccd63a971ef37c0ee9445bd4bd5ac8914df060293f178d55ed35b7b
+updated: 2017-04-16T16:01:29.184216318+08:00
+imports:
+- name: github.com/codegangsta/inject
+  version: 33e0aa1cb7c019ccc3fbe049a8262a6403d30504
+- name: github.com/framps/hwio
+  version: 31c3eee75cb2f64e31e0bd6bc20dfb4bfe0f5e80
+- name: github.com/go-martini/martini
+  version: 49411a5b646861ad29a6ddd5351717a0a9c49b94
+- name: github.com/golang/glog
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+- name: github.com/hanbang-wang/SAKS-SDK-GO
+  version: 620027b9ee4dd05da41c2346337e298d162fbba1
+- name: github.com/imroc/req
+  version: 7f11e9fd61e3b907ca357c591cc43daa948c7353
+- name: github.com/kidoman/embd
+  version: adc3d473054c5f066be48c9459107f70021c34a4
+  subpackages:
+  - host/all
+  - host/bbb
+  - host/generic
+  - host/rpi
+  - util
+- name: github.com/robfig/cron
+  version: b024fc5ea0e34bc3f83d9941c8d60b0622bfaca4
+- name: github.com/stianeikeland/go-rpio
+  version: 896db2ee1c7f95240dd6a09e56edf9cece107a34
+testImports: []
