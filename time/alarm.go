@@ -10,7 +10,7 @@ import (
 	//	rpio "github.com/stianeikeland/go-rpio"
 )
 
-const (
+var (
 	BUTTON1 = saks.TactRow
 	BUTTON0 = saks.TactRow
 	SWITCH0 = saks.DipSwitch
