@@ -8,11 +8,9 @@ import (
 	saks "github.com/hanbang-wang/SAKS-SDK-GO"
 	"github.com/imroc/req"
 	//	rpio "github.com/stianeikeland/go-rpio"
+)
 
-
-const ()
-
-var (
+const (
 	BUTTON1 = saks.TactRow
 	BUTTON0 = saks.TactRow
 	SWITCH0 = saks.DipSwitch
